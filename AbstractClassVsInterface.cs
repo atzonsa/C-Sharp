@@ -48,8 +48,6 @@ namespace SandboxConsole
   
     interface SchoolTask
     {
-        const string IFSC = "POWE1248";
-
         void StudentAdmission(int studentId, double amount);
         void AppointTeacher(int studentId, double amount); 
     }
